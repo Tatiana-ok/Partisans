@@ -13,12 +13,13 @@
     <main>
         <section class="hero">
             <div class="container">
-                <a class="logo-link" href="./index.html">
+                <div class="background">
                     <img class="logo" src="./image/logo.jpg" />
-                </a>
-                <h1 class="hero-title">Зеnик</h1>
-                <h2 class="primary-text hero-text">є платформа, яка дозволяє українцям інформаційно масово атакувати росіян</h2>
-                <button class="primary-button"><a href="">Читати більше</a></button>
+                    <img class="mind" src="./image/mind.png" />
+                    <h1 class="hero-title">Зеnик</h1>
+                    <h2 class="primary-text hero-text">є платформа, яка дозволяє українцям інформаційно масово атакувати росіян</h2>
+                </div>
+                <button class="primary-button" type="button"><a href="">Читати більше</a></button>
             </div>
         </section>
         <section class="section-goal">
@@ -54,7 +55,7 @@
                         </ul>
                     </li>
                 </ul>
-                <button class="primary-button"><a href="https://t.me/zenyk_bot">Натискай</a></button>
+                <button class="primary-button" type="button"><a href="https://t.me/zenyk_bot">Натискай</a></button>
                 <p class="qr-title">або скануй QR код</p>
                 <div class="QRCode-backgraund"><img src="./image/QRCode.jpg" alt="QR-code" /></div>
             </div>
@@ -67,91 +68,143 @@
                 Sorry, your browser doesn't support embedded videos.
             </video> -->
             <iframe class="video" width="360" height="280" src="https://youtube.com/shorts/gCs9FjKADgo?feature=share" title="How it works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <button class="primary-button"><a href="https://t.me/zenyk_bot">Спробувати</a></button>
+            <button class="primary-button" type="button"><a href="https://t.me/zenyk_bot">Спробувати</a></button>
         </section>
         <section class="section-questions">
-            <div class="container">
-                <h2>Найбільш поширені запитання:</h2>
-                <ul>
-                    <li>
-                        <h3 class="primary-text">Чому повідомлення містять граматичні помилки та нецензурну лексику?</h3>
-                        <button>Відповідь</button>
-                        <svg></svg>
-                        <p class="secondary-text">Росіяни мають більше довіри до таких повідомлень.</p>
-                    </li>
-                    <li>
-                        <h3 class="primary-text">Чому є повідомлення, які мають елементи висвітлення України не в найкращому «ракурсі»?</h3>
-                        <button>Відповідь</button>
-                        <svg></svg>
-                        <p class="secondary-text">Деякі повідомлення – це інформаційні вкиди. Щоб до них виникла довіра у росіян, потрібно в частину повідомлення вписати знайоме росіянину формулювання з телебачення. При цьому, в повідомленні є посилання на ресурс, перейшовши на який, росіянин отримає той контент, який може змінити його думку, залякати його чи стимулювати до потрібної нам дії.</p>
-                    </li>
-                    <li>
-                        <h3 class="primary-text">Чи це безпечно?</h3>
-                        <button>Відповідь</button>
-                        <svg></svg>
-                        <p class="secondary-text">Для того, щоб ви були спокійні зробіть декілька простих кроків:</p>
-                        <ul>
-                            <li>
-                                <svg></svg>
-                                <p class="secondary-text">Прибери українську символіку з фото в телеграмі</p>
-                            </li>
-                            <li>
-                                <svg></svg>
-                                <p class="secondary-text">Закрий у налаштуваннях телеграму доступ до номера свого телефону</p>
-                            </li>
-                            <li>
-                                <svg></svg>
-                                <p class="secondary-text">За бажанням, отримай віртуальний номер:</p>
-                                <ul>
-                                    <li>
-                                        <p class="secondary-text">Life: </p><a
-                                            href="https://www.lifecell.ua/ru/razvlecheniya/second-number/?flavour=full">натискай</a>
-                                    </li>
-                                    <li>
-                                        <p class="secondary-text">Vodafon: </p><a href="https://www.vodafone.ua/services/esim">натискай</a>
-                                    </li>
-                                    <li>
-                                        <p class="secondary-text">Київстар: </p><a href="https://kyivstar.ua/uk/mm/services/voice/add_number">натискай</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <svg></svg>
+            <h2 class="questions-title">Найбільш поширені запитання:</h2>
+            <ul>
+                <li class="questions-item">
+                    <div class="container">
+                        <div data-value="first" class="click-field">
+                            <h3 class="primary-text question">Чому повідомлення містять граматичні помилки та нецензурну лексику?
+                            </h3>
+                            <p class="answer">Відповідь <span class="plus-minus">+</span></p>
+                        </div>
+                        <div class="questions-item-answer none first parallel">
+                            <img class="flag" src="/image/flag1.png" alt="Пункт">
+                            <p class="secondary-text">Росіяни мають більше довіри до таких повідомлень.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="questions-item">
+                    <div class="container">
+                        <div data-value="second" class="click-field">
+                            <h3 class="primary-text question">Чому є повідомлення, які мають елементи висвітлення України не в
+                                найкращому «ракурсі»?
+                            </h3>
+                            <p class="answer">Відповідь <span class="plus-minus">+</span></p>
+                        </div>
+                        <div class="questions-item-answer none second parallel">
+                            <img class="flag" src="/image/flag1.png" alt="Пункт">
+                            <p class="secondary-text">Деякі повідомлення – це інформаційні вкиди. Щоб до них виникла довіра у
+                                росіян, потрібно в частину повідомлення вписати знайоме росіянину формулювання з телебачення. При
+                                цьому, в повідомленні є посилання на ресурс, перейшовши на який, росіянин отримає той контент, який
+                                може змінити його думку, залякати його чи стимулювати до потрібної нам дії.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="questions-item">
+                    <div class="container">
+                        <div data-value="third" class="click-field">
+                            <h3 class="primary-text question">Чи це безпечно?</h3>
+                            <p class="answer">Відповідь <span class="plus-minus">+</span></p>
+                        </div>
+                        <div class="none third parallel">
+                            <div class="questions-item-answer">
+                                <img class="flag" src="/image/flag1.png" alt="Пункт">
+                                <p class="secondary-text">Для того, щоб ви були спокійні зробіть декілька простих кроків:</p>
+                            </div>
+                            <ul style="padding-left: 20px;">
+                                <li class="questions-item-answer">
+                                    <svg class="flag-item">
+                                        <use href="./image/symbol-defs.svg#icon-flag2"></use>
+                                    </svg>
+                                    <p class="secondary-text">Прибери українську символіку з фото в телеграмі</p>
+                                </li>
+                                <li class="questions-item-answer">
+                                    <svg class="flag-item">
+                                        <use href="./image/symbol-defs.svg#icon-flag2"></use>
+                                    </svg>
+                                    <p class="secondary-text">Закрий у налаштуваннях телеграму доступ до номера свого телефону</p>
+                                </li>
+                                <li>
+                                    <div class="questions-item-answer">
+                                        <svg class="flag-item">
+                                            <use href="./image/symbol-defs.svg#icon-flag2"></use>
+                                        </svg>
+                                        <p class="secondary-text">За бажанням, отримай віртуальний номер:</p>
+                                    </div>
+                                    <ul>
+                                        <li style="display: flex;">
+                                            <p class="secondary-text">Life:</p><a class="operator-link"
+                                                href="https://www.lifecell.ua/ru/razvlecheniya/second-number/?flavour=full">натискай</a>
+                                        </li>
+                                        <li style="display: flex;">
+                                            <p class="secondary-text">Vodafon:</p><a class="operator-link"
+                                                href="https://www.vodafone.ua/services/esim">натискай</a>
+                                        </li>
+                                        <li style="display: flex;">
+                                            <p class="secondary-text">Київстар:</p><a class="operator-link"
+                                                href="https://kyivstar.ua/uk/mm/services/voice/add_number">натискай</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="questions-item-answer">
+                                <img class="flag" src="/image/flag1.png" alt="Пункт">
                                 <p class="secondary-text">Проект 18+. Дітям не місце на війні!</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="primary-text">Чи може мене забанити Телеграм?</h3>
-                        <button>Відповідь</button>
-                        <p class="secondary-text">На жаль, зустрічаються такі випадки. Це трапляється тоді, коли велика кількість росіян поскаржиться на ваш
-                            акаунт через надіслані вами повідомлення. Якщо вас заблокувало, не переймайтесь, це тимчасово, зверніться за
-                            перевіркою та підтримкою до бота за <a href="https://t.me/SpamBot">посиланням</a>. Щоб цього не сталося,
-                            рекомендовано відправляти не більше 7 повідомлень на добу.</p>
-                    </li>
-                </ul>
-                <button class="primary-button"><a href="https://t.me/zenyk_bot">Почати</a></button>
-            </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="questions-item">
+                    <div class="container">
+                        <div data-value="fourth" class="click-field">
+                            <h3 class="primary-text question">Чи може мене забанити Телеграм?</h3>
+                            <p class="answer">Відповідь <span class="plus-minus">+</span></p>
+                        </div>
+                        <div class="questions-item-answer none fourth parallel">
+                            <img class="flag" src="/image/flag1.png" alt="Пункт">
+                            <p class="secondary-text">На жаль, зустрічаються такі випадки. Це трапляється тоді, коли велика
+                                кількість росіян поскаржиться на ваш акаунт через надіслані вами повідомлення. Якщо вас заблокувало,
+                                не переймайтесь, це тимчасово, зверніться за перевіркою та підтримкою до бота за <a
+                                    href="https://t.me/SpamBot">посиланням</a>. Щоб цього не сталося, рекомендовано відправляти не
+                                більше 7 повідомлень на добу.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </section>
-        <section>
+        <div class="container">
+            <button class="primary-button begin-btn"><a href="https://t.me/zenyk_bot">Почати</a></button>
+        </div>
+        <section class="partners-section">
             <div class="container">
-                <h2>Наші партнери:</h2>
+                <h2 class="partners-title">Наші партнери:</h2>
                 <ul>
-                    <li>
-                        <svg></svg>
-                        <p>Медіа Партизани</p>
+                    <li class="partners-item">
+                        <svg class="partners-first">
+                            <use href="./image/symbol-defs.svg#icon-media"></use>
+                        </svg>
+                        <div class="border"><p class="partners-name">Медіа Партизани</p></div>
+                        <img class="arrow" src="./image/arrow.svg" alt=""/>
                     </li>
-                    <li>
-                        <svg></svg>
-                        <p>Медіа Спротив</p>
+                    <li class="partners-item">
+                        <img class="partners-second" src="./image/media-sprotyv.svg" alt="" />
+                        <div class="border"><p class="partners-name">Медіа Спротив</p></div>
+                        <img class="arrow" src="./image/arrow.svg" alt="" />
                     </li>
-                    <li>
-                        <svg></svg>
-                        <p>Медіа Партизани</p>
+                    <li class="partners-item">
+                        <svg class="partners-first">
+                            <use href="./image/symbol-defs.svg#icon-media"></use>
+                        </svg>
+                        <div class="border"><p class="partners-name">Медіа Партизани</p></div>
+                        <img class="arrow" src="./image/arrow.svg" alt="" />
                     </li>
                 </ul>
             </div>
         </section>
     </main>
+    <script src="./answers.js"></script>
 </body>
 </html>
