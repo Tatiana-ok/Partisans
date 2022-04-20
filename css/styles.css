@@ -64,19 +64,23 @@ ul {
 
 .logo {
   width: 78px;
+  padding-top: 30px;
 }
 
 .mind {
-  height: 298px;
-  left: 50%;
+  position: absolute;
+  height: 464px;
+  top: 80px;
+  left: 35%;
 }
 
 .hero {
+  position: relative;
   padding-bottom: 62px;
 }
 
 .hero .container {
-  height: 673px;
+  height: 690px;
   overflow: hidden;
 }
 
@@ -86,6 +90,7 @@ ul {
 }
 
 .hero-title {
+  margin-top: 370px;
   margin-bottom: 10px;
   font-family: var(--primary-font);
   font-style: normal;
@@ -101,7 +106,7 @@ ul {
 }
 
 .primary-button {
-  display: block;
+  display: inline-block;
   width: 260px;
   height: 40px;
   margin: 0 auto;
@@ -115,7 +120,9 @@ ul {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
   color: var(--secondary-text-color);
+  cursor: pointer;
 }
 
 .section-goal {
