@@ -423,7 +423,8 @@ ul {
   display: inline-block;
   width: 10px;
   height: 10px;
-  margin-right: 2px;
+  margin-right: 4px;
+  margin-top: 5px;
 }
 
 .question {
