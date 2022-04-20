@@ -352,12 +352,13 @@ ul {
 .secondary-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 22px;
 }
 
 @media screen and (min-width: 1200px) {
   .secondary-text {
     font-size: 16px;
+    line-height: 24px;
   }
 }
 
