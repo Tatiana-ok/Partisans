@@ -1,0 +1,28 @@
+{
+  "name": "partisans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "answers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss": "postcss css/styles.min.css --use autoprefixer -d dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatiana-ok/Partisans.git"
+  },
+  "author": "Tetiana Komar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatiana-ok/Partisans/issues"
+  },
+  "homepage": "https://github.com/Tatiana-ok/Partisans#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "autoprefixer-core": "^6.0.1",
+    "postcss-cli": "^10.0.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.16"
+  }
+}
