@@ -5,7 +5,7 @@
   "main": "answers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postcss": "postcss css/styles.min.css --use autoprefixer -d dist/"
+    "postcss": "postcss css/styles.min.css --use autoprefixer dist/"
   },
   "repository": {
     "type": "git",
